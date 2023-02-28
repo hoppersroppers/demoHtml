@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body body style="background-color:yellow;">
 
 
-<h1>Hello! I changed it.</h1>
+<h1>Hello! I changed something here.</h1>
+<h3 id="demo" onclick="myFunction()">Click me to change my color.</h3>
 
-<p>This is my first website.</p>
+<script>
+function myFunction() {
+  document.getElementById("demo").style.color = "red";
+}
+</script>
+<p>This is not my first website.</p>
+<img src="submarine.jpg" alt="Yellow Submarine">
+
+
+<a href="www.hoppersroppers.com">Hoppers Roppers</a>
 
 </body>
 </html>
