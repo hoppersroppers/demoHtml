@@ -8,6 +8,8 @@
 
 
 <h1>Hello! I changed something here.</h1>
+<img src="./submarine.png" alt="Yellow Submarine" style="width:500px;height:600px;">
+<p> xx </p>
 <h3 id="demo" onclick="myFunction()">Click me to change my color.</h3>
 
 <script>
@@ -16,7 +18,7 @@ function myFunction() {
 }
 </script>
 <p>This is not my first website.</p>
-<img src="submarine.jpg" alt="Yellow Submarine">
+
 
 
 <a href="www.hoppersroppers.com">Hoppers Roppers</a>
